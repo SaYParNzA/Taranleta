@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Playfair+Display:ital@1&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Cinzel', serif;
+    font-family: 'Playfair Display', serif;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: rgb(255, 199, 130);
+}
+.container{
+    width: 690px;
+    border-radius: 7px;
+    padding: 30px;
+    background-color: rgb(255, 255, 255);
+}
+.wrapper{
+    border-radius: 5px;
+    border: 1px solid #282727;
+}
+.wrapper .text-input{
+    display: flex;
+    border-bottom: 1px solid #1f1e1e;
+}
+.text-input .to-text{
+    border-radius: 0px;
+    border-left: 1px solid #1f1f1f;
+}
+.text-input textarea{
+    height: 250px;
+    width: 100%;
+    border: none;
+    outline: none;
+    resize: none;
+    font: 18px;
+    border-radius: 5px;
+    padding: 10px 15px;
+    background: none;
+}
+.controls{
+    list-style: none;
+    padding: 12px 15px 10px 10px;
+}
+.controls .row.from .icons{
+    padding-right: 15px;
+    border-right: 1px solid #1f1e1e;
+}
+.controls .row.to .icons{
+    padding-left: 15px;
+    border-left: 1px solid #1f1e1e;
+}
+.controls, li, .icons, .icons i{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.controls .icons i{
+    width: 50px;
+    color: #282727;
+    font-size: 14px;
+    cursor: pointer;
+    justify-content: center;
+}
+.controls .row select{
+    border: none;
+    outline: none;
+    font-size: 18px;
+    background: none;
+}
+.container .exchange{
+    color: #1f1f1f;
+    font-size: 16px;
+    cursor:pointer;
+}
+.container button{
+    width: 100%;
+    padding: 14px;
+    margin-top: 20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 17px;
+    color: #ffffff;
+    border-radius: 5px;
+    background-color: #ff9501;
+}
